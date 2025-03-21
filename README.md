@@ -34,6 +34,8 @@ If you encounter issues with compatibility, you can use this to create a virtual
 python3 -m venv myenv
 source myenv/bin/activate
 pip install -r requirements.txt
+```
+
 ---
 
 ## 📌 Usage
