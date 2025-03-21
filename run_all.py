@@ -1,4 +1,6 @@
 import subprocess
+import webbrowser
+import os
 
 # Define script paths
 get_words_script = "get_words_from_wikipedia.py"
@@ -20,5 +22,12 @@ print("🚀 Converting Markdown to HTML...")
 subprocess.run(["python", html_converter_script], check=True)
 print("✅ Completed: Markdown to HTML conversion")
 
-print("\n🎉 All steps completed successfully!")
+print("\n🎉 All steps completed successfully! Opening the file in web browser...")
 
+html_file = "mandarin_study_guide.html"
+
+# Convert to absolute path
+html_path = os.path.abspath(html_file)
+
+# Open the file in the default web browser
+webbrowser.open(f"file://{html_path}")
