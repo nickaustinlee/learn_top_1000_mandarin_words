@@ -27,15 +27,13 @@ Run the following command to install all dependencies:
 ```bash
 pip install beautifulsoup4 requests openai markdown
 ```
-Last tested to work with these lib versions: 
-```bash
-beautifulsoup4==4.13.3
-openai==1.67.0
-requests==2.32.3
-Markdown==3.7
-```
-I used Python 3.13.2. 
 
+If you encounter issues with compatibility, you can use this to create a virtual environment:
+
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
 ---
 
 ## 📌 Usage
