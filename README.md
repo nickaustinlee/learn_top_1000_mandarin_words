@@ -2,11 +2,16 @@
 
 This project gets the most common Mandarin words from Wikipedia, enriches them with GenAI (GPT), puts the information into markdown, and produces a nicely formatted HTML page for your studies.
 
-I created this study guide to find an efficient way to learn the most Chinese with the least effort. After 1000 words, you hit a "wall" of diminishing returns.
+I created this study guide to find an efficient way to learn the most Chinese words with the least effort. Instead of focusing on character memorization (which is somewhat boring), this guide focuses on character combinations that create the most popular words. With pinyin and repeated exposure to characters, the student should be able to begin improving character recognition naturally.
 
-Fun fact: If you understand the top 1000 most common Mandarin words, you'll be able to read 89% of Chinese. The next 1000 will achieve 97% coverage (approximately full literacy), and you need another 1000 to get to ~99% coverage.
+Fun fact: Figures vary, but it's estimated that you'll have an 80% understanding of Chinese after learning the first 1000 most common words. Continuing to 3000 words will get you to ~90%, and continuing to 7000 will get you to ~95%. To get to full fluency, you'd need 10,000+ words. Characters and words are not the same --words are composed of combinations of a narrow set of characters. Students should grow their character recognition and word recognition.
 
-Disclaimer: The code was last tested with OpenAI's APIs in March 2025. If their API changes, you may need to adjust the code.
+Disclaimer: The code was last tested with OpenAI's APIs in March 2025 and GPT-4o. If their API changes, you may need to adjust the code.
+
+Web Version of Study Guides: 
+[Words 0-1000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_0_1000.html)
+[Words 1001-2000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_1001_2000.html)
+[Words 2001-3000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_2001_3000.html)
 
 ## 🚀 Features
 - **Obtains the Top 1000 Mandarin words** from [Wikipedia](https://en.wiktionary.org/wiki/Appendix:Mandarin_Frequency_lists/1-1000)
