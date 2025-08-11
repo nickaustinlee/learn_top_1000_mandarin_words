@@ -40,6 +40,12 @@ pip install -r requirements.txt
 
 ## 📌 Usage
 
+- **Ensure your OpenAI API key is set** as an environment variable before running the Markdown generator.
+
+```bash
+export OPENAI_API_KEY="<your_key_here>"
+```
+
 Run everything in order with a single command:
 
 ```bash
@@ -50,6 +56,9 @@ This will:
 1. **Scrape Mandarin words from Wikipedia** (`get_words_from_wikipedia.py`)
 2. **Generate a Markdown study guide** (`mandarin_markdown_generator_parallel.py`)
 3. **Convert Markdown to a formatted HTML page** (`markdown_to_html.py`)
+4. **Open the final study guide in a web browser**
+
+Note: Call run_all.py sparingly; each run of mandarin_markdown_generator_parallel.py will incur OpenAI API costs.
 
 Alternatively, you can run each step manually as described below.
 
@@ -83,11 +92,6 @@ Open it in any browser to see the **styled table with sticky headers**.
 ---
 
 ## 💡 Notes
-- **Ensure your OpenAI API key is set** as an environment variable before running the Markdown generator.
-
-```bash
-export OPENAI_API_KEY="<your_key_here>"
-```
 
 - You can modify the **CSS in `markdown_to_html.py`** to customize the table’s appearance.
 
