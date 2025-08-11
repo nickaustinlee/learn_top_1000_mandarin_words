@@ -9,8 +9,11 @@ Fun fact: Figures vary, but it's estimated that you'll have an 80% understanding
 Disclaimer: The code was last tested with OpenAI's APIs in March 2025 and GPT-4o. If their API changes, you may need to adjust the code.
 
 Web Version of Study Guides: 
+
 [Words 0-1000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_0_1000.html)
+
 [Words 1001-2000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_1001_2000.html)
+
 [Words 2001-3000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_2001_3000.html)
 
 ## 🚀 Features
