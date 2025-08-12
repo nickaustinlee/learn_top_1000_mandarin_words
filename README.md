@@ -16,6 +16,8 @@ Web Version of Study Guides:
 
 [2001-3000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_2001_3000.html)
 
+[3001-4000](https://nickaustinlee.github.io/learn_top_1000_mandarin_words/ready_made_study_guides/mandarin_study_guide_3001_4000.html)
+
 ## 🚀 Features
 - **Obtains the Top 1000 Mandarin words** from [Wikipedia](https://en.wiktionary.org/wiki/Appendix:Mandarin_Frequency_lists/1-1000)
 - **Generates structured Markdown** study guides with translations and example sentences
